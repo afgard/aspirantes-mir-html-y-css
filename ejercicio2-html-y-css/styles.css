@@ -1,0 +1,101 @@
+.container {
+    width: 300px;
+    margin: auto auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 6px 4px 16px 3px rgba(0,0,0,0.75);
+    background: linear-gradient(0deg, rgba(107,76,245,1) 0%, rgba(189,9,183,1) 85%);
+    margin-top: 40px;
+  }
+  
+  form {
+    color: white;
+  }  
+  
+  h2 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-top: -2px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    margin-right: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  .input-group input[type="email"],
+  .input-group input[type="password"] {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    height: 20px;
+  }  
+  
+  .input-group select {
+    width: 100%;
+    padding: 7px;
+    color: black;
+    background-color: white;
+  }
+  
+  .input-group input[type="checkbox"] {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  .button-group {
+    text-align: right;
+    font-size: 30px;
+    padding: 8px;
+  }
+  
+  button {
+    padding: 5px 15px;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .checkbox-container label {
+    font-size: 20px;
+    margin: 10px 0px 0px;
+  }
+
+  .checkbox-container {
+    margin-top: 10px;
+  }
+
+  .input-group2 {
+    font-size: 20px;
+  }   
+  
+  #gender {
+    width: 100%;
+    height: 35px;
+    font-weight:bold;
+  }
+
+  /* Estilos para el elemento <td> que contiene el texto en la tabla */
+td {
+    text-align: right;
+  }
+  
+  
+  @media screen and (max-width: 500px) {
+    .container {
+      width: 100%;
+      margin-right: -20px;
+    }
+  }
+  
+  
